@@ -1,14 +1,27 @@
 body{
     width:960px;
     margin: auto;
+    font: Helvetica, Arial, sans-serif;
 }
 .banner{
-    background-image:url("sky.jpeg")
+    background-image:url("sky.jpeg");
+    color: white;
 }
-main>nav{
+
+article>h1, h2, h3, h4, h5, h6{
+    color: #30396D;
+
+}
+main>nav>li{
     display:inline-block;
     text-align: right;
     text-decoration: none;
-    
+    font-size: 12px;
+   
 
+}
+footer{
+    background-color:#30396D;
+    color: white;
+    font-size: 12px;
 }
